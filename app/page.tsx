@@ -4,7 +4,6 @@
 import { Button } from "@/components/button";
 import { Card, CardBody } from "@/components/card";
 import Link from "next/link"; // Use Next.js Link component
-import { useTranslation } from "react-i18next";
 import { Heart, Users, Target, BookOpen, ArrowRight } from "lucide-react";
 import "@fontsource/montserrat/400.css";
 import "@fontsource/montserrat/600.css";
@@ -60,7 +59,6 @@ const features = [
 ];
 
 export default function Home() {
-	const { t } = useTranslation();
 
 	return (
 		<div className="min-h-screen bg-background font-['Montserrat']">
